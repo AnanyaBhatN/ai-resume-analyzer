@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ffffff;
+  color: #111827;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #bfd3fe transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bfd3fe;
+  border-radius: 999px;
+}
+
+@media print {
+  aside,
+  header {
+    display: none !important;
+  }
+}
