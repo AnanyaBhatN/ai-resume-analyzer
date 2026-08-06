@@ -22,21 +22,6 @@ The application is built using **React 19**, **TypeScript**, **Vite**, **Tailwin
 
 ---
 
-# Screenshots
-
-> Add screenshots after running the application locally.
-
-```
-screenshots/
-├── landing-page.png
-├── dashboard.png
-├── analyze-page.png
-├── analysis-report.png
-├── history.png
-└── settings.png
-```
-
----
 
 # Features
 
